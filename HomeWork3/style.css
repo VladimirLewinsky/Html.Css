@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    padding-bottom: 96px;
+}
+.header{
+    margin-top: 51px;
+}
+.content{
+    margin-top: 155px;
+}
+.content_text{
+    margin-top: 17px;
+}
+.content_buttons{
+    margin-top: 52px;
+}
+.footer{
+    margin-top: 216px;
+}

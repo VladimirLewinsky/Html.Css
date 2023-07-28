@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    padding-left : 373px;
+}
+.header{
+    
+    width: 1170px;
+}
+.header-left{
+    padding-top: 40px;
+   
+}
+.header-right{
+    padding-top: 50px ;
+    width:533px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-flex{
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-link{
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.home{
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.content{
+    margin-top: 155px;
+    width: 1107px;
+}
+.content-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.content-left   {
+    width: 50%;
+    
+}
+.content-right{
+    width: 544.814px;
+    height: 374.843px;
+    flex-shrink: 0;
+}
+.content-title{
+    color: #000;
+    font-family: Gilroy-Bold;
+    
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.content-text{
+    margin-top: 17px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.content-buttons{
+   
+    display: flex;
+    justify-content: space-between;
+    width: 302px;
+    margin-top: 52px;
+ 
+ }
+ .content-link{
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 0;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    margin-right: 72px;
+ }
+ .content-link:hover{
+    border: 1px solid #F25822;
+    color: #FFF;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20)
+ }
+.content-link{
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    }
+.logos{
+    
+    margin-top: 260px;
+    padding-left: 345px;
+   
+    width: 1200px;
+}
+.container-logos{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,140 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .header{
+    background: #222222;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 230px;
+    padding-right: 230px;
+ }
+ .content{
+    display: flex;
+    justify-content: center;
+    gap: 43px;
+    background-color:  #F1E4E6;
+    padding-right: 331px;
+ }
+
+ .brand{
+    padding-top: 290px;
+    gap:16px;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .slogan{
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+ }
+ .little_slogna{
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+
+ .middle{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,360px);
+    gap: 30px;
+    padding-top: 64px;
+ }
+ .bot{
+    padding-top: 96px;
+    padding-bottom: 74px;
+ }
+ .title{
+   
+    text-align: center;
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+ .text{
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+ .catalog{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,360px);
+    gap: 30px;
+    padding-top: 48px;
+ }
+ 
+ .name{
+    padding-top: 25px;
+    padding-left: 16px;
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+ .about{
+    padding:16px;
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+ }
+ .price{
+    padding-left: 16px;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 24px;
+ }
+.item_bg{
+   width: 360px;
+   height: 420px;
+   background-color: #F7E4E2;
+   
+}
+.png_bg{
+    margin-left: 110px;
+    margin-top: 9px;
+    
+}
+ .product_button{
+    margin-top: 48px;
+    padding: 15px 39px;
+    display: grid;
+    justify-content: center;
+    
+ }
+.browse{
+    text-align: center;
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #F26376;
+    padding: 15px 39px;
+ }
+   

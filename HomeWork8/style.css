@@ -1,0 +1,346 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ /* .body{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+ } */
+
+ .header{
+    
+    background: #222222;
+    display: flex;
+    justify-content: space-between;
+   
+ }
+ .right_menu{
+   display: flex;
+   align-items: center;
+   gap: 41px;
+   padding-top: 31px;
+   padding-bottom: 31px;
+   padding-right: 3vw;
+ }
+ .left_menu {
+   display: flex;
+   align-items: center;
+   gap: 41px;
+   padding-top: 18px;
+   padding-bottom: 18px;
+   padding-left: 3vw;
+   
+ }
+
+ .content{
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color:  #F1E4E6;
+ }
+.slogan_container{
+
+   padding-left: 16px;
+   border-left: 12px solid #f16d7f;
+}
+
+ .obertka_img{
+   display: flex;
+   width: 800px;
+   height: 764px;
+ 
+ }
+
+
+ .slogan{
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+   
+ }
+ .little_slogan{
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+
+ .middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 1140px;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 64px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+ }
+
+ .object{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: auto;
+   width: 360px;
+   height: 260px;
+   background-blend-mode: overlay;
+   background-position: center;
+   background-color: #211616B2;
+   position: relative;
+   align-items: center;
+   flex-direction: column;
+   text-decoration: none;
+ }
+
+
+.object_long_containter{
+   padding-top: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   max-width: 1140px;
+   margin: auto;
+   background-position: center;
+   padding-left: 20px;
+   padding-right: 20px;
+   position: relative;
+}
+ .object_long{
+   width: 1140px;
+   height: 180px;
+   
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: auto;
+   background-blend-mode: overlay;
+   /* height: auto; */
+ }
+
+ .discount{
+   color: #FFF;
+   text-align: center;
+   font-family: Lato;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+ }
+
+.category{
+   color: #F16D7F;
+   font-family: Lato;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+
+
+ 
+ .bot{
+    padding-top: 96px;
+    padding-bottom: 74px;
+ }
+ .title{
+   
+    text-align: center;
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+ .text{
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+ .catalog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1140px ;
+    gap: 30px;
+    padding-top: 48px;
+    margin: auto;
+ }
+ 
+ .name{
+    padding-top: 25px;
+    padding-left: 16px;
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+ }
+ .about{
+    padding:16px;
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    word-wrap: break-word;
+ }
+ .price{
+    padding-left: 16px;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 24px;
+ }
+ .item{
+   width: 360px;
+   
+ }
+.item_bg{
+   width: 360px;
+   height: 420px;
+   background-color: #F7E4E2;
+   display: flex;
+   justify-content: center;
+   
+}
+.png_bg{
+   margin-left:27%;
+    margin-top: 9px;
+    
+}
+ .product_button{
+    margin-top: 48px;
+    padding: 15px 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+.browse{
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #F26376;
+    padding: 15px 39px;
+ }
+
+
+ @media (min-width: 768px)and (max-width: 1024px ){
+ 
+   
+.obertka_img{
+   /* display: flex; */
+   width: 386px;
+   height: 368px;
+
+  }
+
+
+ }
+
+ @media (min-width:320px ) and (max-width:767px){
+
+ .icon_right_mobile{
+   display: none;
+ }
+ .obertka_img{
+  display: none;
+ }
+ .content{
+   height: 363px;
+ }
+ .slogan{
+   color: #222;
+   font-family: Lato;
+   font-size: 38px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: normal;
+ }
+ .little_slogan{
+   color: #222;
+   font-family: Lato;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+ }
+ .middle{
+  
+   flex-direction: column;
+   padding-left: 0px;
+   padding-right: 0px;
+   /* margin-left: 16px;
+   margin-right:16px ; */
+   
+ }
+ .object{
+   width: 300px;
+ }
+ .object_long_containter{
+  
+   padding-top: 30px;
+   width: 320px;
+  
+   padding-left: 0;
+   padding-right: 0;
+ }
+ .catalog{
+   width: 320px;
+   gap: 16px;
+  
+ }
+ .item{
+   width: 300px;
+ }
+ .item_bg{
+   width: 300px;
+   height: 418px;
+   
+ }
+ .item_img_bg{
+   height: 410px;
+   
+   
+
+ }
+ .item_img{
+   width: 300px;
+ }
+ .product_button{
+   padding-top: 16px;
+   padding-bottom: 85px;
+ }
+ .bot{
+   padding-bottom: 0;
+   padding-top:64px;
+ }
+}
